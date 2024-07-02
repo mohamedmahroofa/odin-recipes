@@ -17,13 +17,12 @@ h3, a {
 }
 
 ul li {
-    padding: 16px;
+    padding: 30px;
     background-color: #f91717;
-    margin: 32px 16px;
     border: 1px solid red;
-    font-size: 24px;
+    margin: 20px;
     width: 200px;
-   
+    text-align: center;
 }
 
 img {
