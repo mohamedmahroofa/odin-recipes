@@ -1,16 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     text-align: center;
     font-family: fantasy, sans-serif;
     color: antiquewhite;
     background-color: #000;
+    padding: 8px;
+    margin-bottom: 16px;
 }
 
-h3 {
+h3, a {
     font-family: monospace, Tahoma, sans-serif;
 }
 
 ul li {
-    list-style-type: square;
+    padding: 16px;
+    background-color: #f91717;
+    margin: 32px 16px;
+    border: 1px solid red;
+    font-size: 24px;
+    width: 200px;
+   
 }
 
 img {
@@ -25,4 +38,10 @@ p {
 
 li {
     line-height: 1.5em;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
 }
